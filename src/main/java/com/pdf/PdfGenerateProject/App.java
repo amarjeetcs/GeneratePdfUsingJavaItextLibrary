@@ -27,7 +27,7 @@ public class App {
 		
 
 	}
-	public void generatePdf() throws FileNotFoundException
+	public void generatePdf() throws Exception
 	{
 		
 		//String path = "C:\\Users\\USER\\Desktop\\Hac\\generatePdf.pdf";
