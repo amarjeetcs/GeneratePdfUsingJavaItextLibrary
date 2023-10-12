@@ -51,109 +51,110 @@ public class App {
 
 		float[] pointColumnWidths = { 50f, 250f, 100f, 100f };
 		Table table = new Table(pointColumnWidths);
-
-		// Adding cells to the table
+		//Table table = new Table(4);
+		//table.setWidth(450);
+		
 		table.addCell(new Cell().add("NO"));
 		table.addCell(new Cell().add("DESCRIPTION"));
 		table.addCell(new Cell().add("RESULT"));
 		table.addCell(new Cell().add("REMARK"));
 
 		Cell c1 = new Cell(); 
-		c1.add("A"); 
+		c1.add("A").setBorder(Border.NO_BORDER); 
 		table.addCell(c1);
 		
 		Cell c2 = new Cell(); // Creating cell 1
-		c2.add("WHEREHOUSE RELATED"); 
+		c2.add("WHEREHOUSE RELATED").setBorder(Border.NO_BORDER); 
 		table.addCell(c2);
 		
 		
 		Cell c3 = new Cell(); 
-		c3.add(""); 
+		c3.add("").setBorder(Border.NO_BORDER); 
 		table.addCell(c3);
 		
 		Cell c4 = new Cell(); 
-		c4.add(""); 
+		c4.add("").setBorder(Border.NO_BORDER); 
 		table.addCell(c4);
 		
 		Cell c5 = new Cell(); 
-		c5.add("1"); 
+		c5.add("1").setBorder(Border.NO_BORDER); 
 		table.addCell(c5);
 		
 		Cell c6 = new Cell(); 
-		c6.add("WHETHER QR CODE").add("UPDATED BY RM IS").add("MATCHING WITH QR CODE").add("IN WAREHOUSE"); 
+		c6.add("WHETHER QR CODE").add("UPDATED BY RM IS").add("MATCHING WITH QR CODE").add("IN WAREHOUSE").setBorder(Border.NO_BORDER); 
 		table.addCell(c6);
 		
 		Cell c7 = new Cell(); 
-		c7.add(""); 
+		c7.add("").setBorder(Border.NO_BORDER); 
 		table.addCell(c7);
 		
 		Cell c8 = new Cell(); 
-		c8.add(""); 
+		c8.add("").setBorder(Border.NO_BORDER); 
 		table.addCell(c8);
 		
 		Cell c9 = new Cell(); 
-		c9.add("2"); 
+		c9.add("2").setBorder(Border.NO_BORDER); 
 		table.addCell(c9);
 		
 		Cell c10 = new Cell(); 
-		c10.add("FULL ADDRESS OF WAREHOUSE"); 
+		c10.add("FULL ADDRESS OF WAREHOUSE").setBorder(Border.NO_BORDER); 
 		table.addCell(c10);
 		
 		Cell c11 = new Cell(); 
-		c11.add(""); 
+		c11.add("").setBorder(Border.NO_BORDER); 
 		table.addCell(c11);
 		
 		Cell c12 = new Cell(); 
-		c12.add(""); 
+		c12.add("").setBorder(Border.NO_BORDER); 
 		table.addCell(c12);
 		
 		Cell c13 = new Cell(); 
-		c13.add("3"); 
+		c13.add("3").setBorder(Border.NO_BORDER); 
 		table.addCell(c13);
 		
 		Cell c14 = new Cell(); 
-		c14.add("NAME OF THE BORROWER (S)"); 
+		c14.add("NAME OF THE BORROWER (S)").setBorder(Border.NO_BORDER); 
 		table.addCell(c14);
 		
 		Cell c15 = new Cell(); 
-		c15.add(""); 
+		c15.add("").setBorder(Border.NO_BORDER); 
 		table.addCell(c15);
 		
 		Cell c16 = new Cell(); 
-		c16.add(""); 
+		c16.add("").setBorder(Border.NO_BORDER); 
 		table.addCell(c16);
 			
 		Cell c17 = new Cell(); 
-		c17.add("4"); 
+		c17.add("4").setBorder(Border.NO_BORDER); 
 		table.addCell(c17);
 		
 		Cell c18 = new Cell(); 
-		c18.add("NAME OF THE CM"); 
+		c18.add("NAME OF THE CM").setBorder(Border.NO_BORDER); 
 		table.addCell(c18);
 		
 		Cell c19 = new Cell(); 
-		c19.add(""); 
+		c19.add("").setBorder(Border.NO_BORDER); 
 		table.addCell(c19);
 		
 		Cell c20 = new Cell(); 
-		c20.add(""); 
+		c20.add("").setBorder(Border.NO_BORDER); 
 		table.addCell(c20);
 		
 		Cell c21 = new Cell(); 
-		c21.add("5"); 
+		c21.add("5").setBorder(Border.NO_BORDER); 
 		table.addCell(c21);
 		
 		Cell c22 = new Cell(); 
-		c22.add("TYPE OF STRUCTURE"); 
+		c22.add("TYPE OF STRUCTURE").setBorder(Border.NO_BORDER); 
 		table.addCell(c22);
 		
 		Cell c23 = new Cell(); 
-		c23.add(""); 
+		c23.add("").setBorder(Border.NO_BORDER); 
 		//c23.setBorder(Border.NO_BORDER);    
 		table.addCell(c23);
 		
 		Cell c24 = new Cell(); 
-		c24.add(""); 
+		c24.add("").setBorder(Border.NO_BORDER); 
 		//c24.setBorder(Border.NO_BORDER);    
 		table.addCell(c24);
 		document.add(table);
